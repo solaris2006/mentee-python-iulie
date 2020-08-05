@@ -7,6 +7,8 @@
     locuri intr-un proiect, nu vom scrie aceeasi bucata de 10 ori, in schimb o vom incapsula
     intr-o functie, care ne va da rezultatul.
 '''
+
+
 def say_hello_world():
     print("Hello, World!")
 
@@ -22,6 +24,8 @@ def say_hello_world():
              "altceva" --> string
              1 --> not string
 '''
+
+
 def say_something(something):
     print(something)
 
@@ -30,6 +34,8 @@ def say_something(something):
     Avem aceeasi metoda ca mai sus cu conditia ca ii specificam functiei tipul de parametru
     pe care trebuie sa il primeasca, si anume string.
 '''
+
+
 def say_something_special(something: str):
     print(something)
 
@@ -45,6 +51,8 @@ def say_something_special(something: str):
     pentru a stoca ceva intr-o variabila, tot ce trebuie sa facem este sa scriem ceva de genul:
     variabila = "Hello world!"
 '''
+
+
 def give_me_a_string():
     return "I gave you this string!"
 
@@ -57,6 +65,8 @@ def give_me_a_string():
     impartire (/)
     ridicare la putere (**)
 '''
+
+
 def add_two_numbers(a, b):
     return a + b
 
@@ -75,22 +85,26 @@ def add_two_numbers(a, b):
         - incercati sa pastrati aceeasi nomenclatura pe care am folosit-o si eu, este best practice
         - functiile trebuie sa fie usor de inteles, sa aiba nume sugestive, la fel si variabilele, cand vom ajunge acolo
 '''
+
+
 def subtract_numbers(a, b):
     #pass  remove this line when done
     return a - b
 
+
 def multiply_numbers(a, b):
     return a * b
+
 
 # TODO: implement division
 def divide_numbers(a, b):
     return  a / b
 
+
 # TODO: implement power
 def square_up(a):
     return a * a
     # return a**2
-
 
 
 if __name__ == '__main__':
