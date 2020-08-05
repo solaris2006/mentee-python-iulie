@@ -96,12 +96,10 @@ def multiply_numbers(a, b):
     return a * b
 
 
-# TODO: implement division
 def divide_numbers(a, b):
     return  a / b
 
 
-# TODO: implement power
 def square_up(a):
     return a * a
     # return a**2
