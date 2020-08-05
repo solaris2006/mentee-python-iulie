@@ -88,7 +88,10 @@ def divide_numbers(a, b):
 
 # TODO: implement power
 def square_up(a):
-    return a**2
+    return a * a
+    # return a**2
+
+
 
 if __name__ == '__main__':
     # folosind functia print(argument), putem printa orice in consola.
