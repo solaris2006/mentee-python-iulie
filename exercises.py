@@ -1,4 +1,3 @@
-
 '''
     Pentru a putea modulariza codul si a ne asigura ca anumite bucati de cod merg,
     intotdeauna este bine sa folosim functii.
@@ -11,6 +10,7 @@
 
 def say_hello_world():
     print("Hello, World!")
+
 
 '''
     Sa presupunem ca "Hello, World!" nu e singurul lucru pe care vrem sa il spunem,
@@ -29,6 +29,7 @@ def say_hello_world():
 def say_something(something):
     print(something)
 
+
 '''
     Asta e putin bonus si putin mai greu de inteles, o sa detaliem in lectiile ulterioare
     Avem aceeasi metoda ca mai sus cu conditia ca ii specificam functiei tipul de parametru
@@ -38,6 +39,7 @@ def say_something(something):
 
 def say_something_special(something: str):
     print(something)
+
 
 '''
     O sa trecem acum la o functie care ne va intoarce un rezultat atunci cand o apelam
@@ -56,6 +58,7 @@ def say_something_special(something: str):
 def give_me_a_string():
     return "I gave you this string!"
 
+
 '''
     In continuare vom defini o functie care adauga doua numere, primite ca si parametrii
     Operatiile in python sunt: 
@@ -69,6 +72,7 @@ def give_me_a_string():
 
 def add_two_numbers(a, b):
     return a + b
+
 
 '''
     Acum, este randul vostru sa implementati 4 functii care sa faca scaderea a 2 numere, impartirea a 2 numere
@@ -88,7 +92,7 @@ def add_two_numbers(a, b):
 
 
 def subtract_numbers(a, b):
-    #pass  remove this line when done
+    # pass  remove this line when done
     return a - b
 
 
@@ -97,7 +101,7 @@ def multiply_numbers(a, b):
 
 
 def divide_numbers(a, b):
-    return  a / b
+    return a / b
 
 
 def square_up(a):
@@ -137,7 +141,6 @@ if __name__ == '__main__':
     # Cu cat mai putine apeluri de functii, cu atat mai bine.
     print(add_two_numbers(2, 3))
 
-
 '''
     Dupa ce terminati de inteles, si incepeti sa implementati,
     Ca sa vedeti rezultatele, rulati checkerul. 
@@ -156,6 +159,3 @@ if __name__ == '__main__':
     Au un site bunicel, dar nu e neaparat foarte explicit. E fain ca poti testa tu sa vezi ce se intampla.
     Have a look, daca vreti, daca nu, urmatoarea lectie va fi exclusiv despre data types.
 '''
-
-
-
